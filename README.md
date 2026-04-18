@@ -1,1 +1,2 @@
-# Lap-Trinh-Di-Dong
+Ứng dụng hỗ trợ lớp 12 ôn tập tốt nghiệp THPT - HƯỚNG DẪN SỬ DỤNG
+-------------------------------------------------------------------
