@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "671965471547",
+    "project_id": "exampratice12",
+    "storage_bucket": "exampratice12.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:671965471547:android:15e493e6315561f2ae4d1e",
+        "android_client_info": {
+          "package_name": "com.example.exam_pratice_12"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB4rfl4zmBOxgUKCfrNoUaiucuPlmVncpE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:671965471547:android:11dbafdbc61c65ebae4d1e",
+        "android_client_info": {
+          "package_name": "com.huit.exampratice12"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB4rfl4zmBOxgUKCfrNoUaiucuPlmVncpE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
