@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import '../models/welcome_model.dart';
+import 'package:exam_pratice_12/screens/Account/login_screen.dart';
 
 class WelcomeScreen extends StatefulWidget {
   const WelcomeScreen({super.key});
@@ -142,7 +143,11 @@ class _WelcomeScreenState extends State<WelcomeScreen> {
                                   borderRadius: BorderRadius.circular(12),
                                 ),
                               ),
-                              onPressed: () {}, ///ready_button -> Login_screen 
+                              onPressed: () {
+                                Navigator.push(
+                                  context, MaterialPageRoute(builder: (context) =>  LoginScreen())
+                                );
+                              }, ///ready_button -> Login_screen 
                               child: const Text(
                                 "Bắt đầu",
                                 style: TextStyle(fontSize: 16, color: Colors.white, fontWeight: FontWeight.bold),
