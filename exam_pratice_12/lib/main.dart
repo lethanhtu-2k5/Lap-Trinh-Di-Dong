@@ -1,9 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:firebase_core/firebase_core.dart'; // THÊM DÒNG NÀY
-import '../firebase_options.dart'; // FILE NÀY sinh ra sau khi chạy 'flutterfire configure'
+import 'package:firebase_core/firebase_core.dart'; 
+import '../firebase_options.dart'; 
 import '../screens/welcome_screen.dart';
 
-// 1. Chuyển hàm main thành async
 void main() async {
   // 2. Đảm bảo Flutter Engine đã sẵn sàng
   WidgetsFlutterBinding.ensureInitialized();
@@ -22,7 +21,6 @@ void main() async {
 
 class MyApp extends StatelessWidget {
   const MyApp({super.key});
-
   @override
   Widget build(BuildContext context) {
     return MaterialApp(

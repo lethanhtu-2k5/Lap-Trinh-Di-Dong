@@ -81,9 +81,6 @@ class _LoginScreenState extends State<LoginScreen> {
                     IconButton(
                       icon: Icon(Icons.arrow_back_ios),
                       onPressed: () {
-                        if (Navigator.canPop(context)) {
-                          Navigator.pop(context);
-                        } else {
                           Navigator.pushReplacement(
                             context,
                             MaterialPageRoute(
@@ -91,7 +88,6 @@ class _LoginScreenState extends State<LoginScreen> {
                             ),
                           );
                         }
-                      },
                     ),
                     Text(
                       "Đăng nhập",

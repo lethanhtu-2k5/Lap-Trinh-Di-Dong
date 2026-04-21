@@ -143,11 +143,12 @@ class _WelcomeScreenState extends State<WelcomeScreen> {
                                   borderRadius: BorderRadius.circular(12),
                                 ),
                               ),
+
                               onPressed: () {
                                 Navigator.push(
                                   context, MaterialPageRoute(builder: (context) =>  LoginScreen())
                                 );
-                              }, ///ready_button -> Login_screen 
+                              }, 
                               child: const Text(
                                 "Bắt đầu",
                                 style: TextStyle(fontSize: 16, color: Colors.white, fontWeight: FontWeight.bold),
